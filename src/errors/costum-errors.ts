@@ -10,4 +10,4 @@ const createCustomError = (msg: string, statusCode: number) => {
   return new CustomAPIError(msg, statusCode);
 };
 
-export { createCustomError };
+export { createCustomError, CustomAPIError };
